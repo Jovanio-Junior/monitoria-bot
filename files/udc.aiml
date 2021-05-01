@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  
+<category>
+    <template></template>
+</category>
+<category>
+    <pattern>star</pattern>
+    <template><carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        
+        <subtitle>Insert Subtitle</subtitle>
+        <button>
+            <text>Algoritmos</text>
+            <postback>Algoritmos</postback>
+        </button>        <button>
+            <text>Sistemas digitais</text>
+            <postback>Sistemas digitais</postback>
+        </button>        <button>
+            <text>Estrutura de Dados I</text>
+            <postback>Estrutura de Dados I</postback>
+        </button>        <button>
+            <text>Estrutura de Dados II</text>
+            <postback>Estrutura de Dados II</postback>
+        </button>        <button>
+            <text>Projeto e Analise de Algoritmos I</text>
+            <postback>Projeto e Analise de Algoritmos I</postback>
+        </button>
+        
+    </card>
+</carousel></template>
+</category>
+
+<category>
+    <pattern>Algoritmos</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Sequencial</text>
+            <postback>Sequencial</postback>
+        </button>        <button>
+            <text>Condicional</text>
+            <postback>Condicional</postback>
+        </button>        <button>
+            <text>Estruturas de Repetição</text>
+            <postback>Estruturas de Repetição</postback>
+        </button>        <button>
+            <text>Matrizes e Vetores</text>
+            <postback>Matrizes e Vetores</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+<category>
+    <pattern>Sequencial</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Jovanio</text>
+            <postback>Jovanio</postback>
+        </button>        <button>
+            <text>João</text>
+            <postback>João</postback>
+        </button>        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Condicional</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Jovanio</text>
+            <postback>Jovanio</postback>
+        </button>        <button>
+            <text>João</text>
+            <postback>João</postback>
+        </button>        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Estruturas de Repetição</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Jovanio</text>
+            <postback>Jovanio</postback>
+        </button>        <button>
+            <text>João</text>
+            <postback>João</postback>
+        </button>        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Matrizes e Vetores</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Jovanio</text>
+            <postback>Jovanio</postback>
+        </button>        <button>
+            <text>João</text>
+            <postback>João</postback>
+        </button>        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+
+
+
+
+
+<category>
+    <pattern>Sistemas digitais</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Portas Lógicas</text>
+            <postback>Portas Lógicas</postback>
+        </button>        <button>
+            <text>Mux e Demux</text>
+            <postback>Mux e Demux</postback>
+        </button>        <button>
+            <text>Flip Flop</text>
+            <postback>Flip Flop</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+<category>
+    <pattern>Portas Lógicas</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>João</text>
+            <postback>João</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+<category>
+    <pattern>Mux e Demux</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>João</text>
+            <postback>João</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+<category>
+    <pattern>Flip Flop</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Jovanio</text>
+            <postback>Jovanio</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Estrutura de Dados I</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Recusividade</text>
+            <postback>Recusividade</postback>
+        </button>        <button>
+            <text>Estruturas Simples</text>
+            <postback>Estruturas Simples</postback>
+        </button>        <button>
+            <text>Estrutas Complexas</text>
+            <postback>Estrutas Complexas</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Recusividade</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Jovanio</text>
+            <postback>Jovanio</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Estruturas Simples</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>João</text>
+            <postback>João</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Estrutas Complexas</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Estrutura de Dados II</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Algoritmos de Ordenação</text>
+            <postback>Algoritmos de Ordenação</postback>
+        </button>        <button>
+            <text>Tabela Hash</text>
+            <postback>Tabela Hash</postback>
+        </button>        <button>
+            <text>Grafos</text>
+            <postback>Grafos</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+<category>
+    <pattern>Algoritmos de Ordenação</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Jovanio</text>
+            <postback>Jovanio</postback>
+        </button>
+        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Tabela Hash</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Grafos</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Jovanio</text>
+            <postback>Jovanio</postback>
+        </button>
+        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+
+<category>
+    <pattern>Projeto e Analise de Algoritmos I</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Complexidade de Algoritmos</text>
+            <postback>Complexidade de Algoritmos</postback>
+        </button>        <button>
+            <text>Algoritmos Gulosos</text>
+            <postback>Algoritmos Gulosos</postback>
+        </button>        <button>
+            <text>Programção Dinâmica</text>
+            <postback>Programção Dinâmica</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+
+<category>
+    <pattern>Complexidade de Algoritmos</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Jovanio</text>
+            <postback>Jovanio</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+<category>
+    <pattern>Algoritmos Gulosos</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+<category>
+    <pattern>Programção Dinâmica</pattern>
+    <template>
+<carousel>
+    <card>
+        <image>https://cdn.discordapp.com/attachments/815670535023231007/838183102219026432/vito.png</image>
+        <title></title>
+        <subtitle></subtitle>
+        <button>
+            <text>Lara</text>
+            <postback>Lara</postback>
+        </button>
+    </card>
+</carousel></template>
+</category>
+
+
+
+
+<category>
+    <pattern>Jovanio</pattern>
+    <template>
+        Contato<br/>E-mail: xxxxxx@gmail.com<br/>Fone: 999999999
+    </template>
+</category>
+<category>
+    <pattern>João</pattern>
+    <template>
+        Contato<br/>E-mail: xxxxxx@gmail.com<br/>Fone: 999999999
+    </template>
+</category>
+<category>
+    <pattern>Lara</pattern>
+    <template>
+        Contato<br/>E-mail: xxxxxx@gmail.com<br/>Fone: 999999999
+    </template>
+</category>
+
+</aiml>
